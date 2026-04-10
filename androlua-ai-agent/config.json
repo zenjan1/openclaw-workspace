@@ -1,0 +1,19 @@
+{
+    "name": "AI 自动点击代理",
+    "version": "1.0.0",
+    "packageName": "com.ai.autoagent",
+    "versionName": "1.0",
+    "versionCode": 1,
+    "minSdkVersion": 21,
+    "targetSdkVersion": 29,
+    "useLuaKit": true,
+    "permissions": [
+        "android.permission.INTERNET",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        "android.permission.FOREGROUND_SERVICE"
+    ],
+    "main": "main.lua",
+    "theme": "@android:style/Theme.Material.Light.NoActionBar"
+}

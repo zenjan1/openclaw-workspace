@@ -1,0 +1,57 @@
+# 备份文件
+*.bak
+*.bak.*
+*.tmp
+
+# 日志
+logs/
+*.log
+
+# 临时文件
+config.json.tmp
+
+# 压缩包
+*.zip
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# OpenClaw 工作区（单独管理）
+.openclaw/workspace/
+workspace/
+
+# OpenClaw 运行时文件（会话、锁文件等）
+.openclaw/agents/*/sessions/*.jsonl
+.openclaw/agents/*/sessions/*.lock
+.openclaw/agents/*/sessions/sessions.json
+
+# 浏览器用户数据（太大且频繁变化）
+browser/
+
+# 敏感信息
+openclaw.json
+*.env
+.env.*
+**/settings.local.json
+**/sessions.json
+**/sessions/*.jsonl
+**/sessions/*.lock
+**/.openclaw/
+
+# 运行时/缓存
+.openclaw/agents/
+.openclaw/sessions/
+.openclaw/cache/
+update-check.json
+search-args.json
+
+# OpenClaw agent 运行时数据（含认证/会话历史）
+agents/
+identity/
+devices/
+
+# 临时/测试脚本（按需取消注释）
+check-git.ps1
+install-top-skills.ps1
+verify-migration.ps1

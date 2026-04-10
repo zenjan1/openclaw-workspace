@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">屏幕 AI 助手</string>
+    <string name="accessibility_service_label">屏幕 AI 助手自动点击</string>
+    <string name="accessibility_service_description">此服务用于分析屏幕内容并自动执行点击操作，实现 AI 自动点击功能。</string>
+    <string name="start_service">启动服务</string>
+    <string name="stop_service">停止服务</string>
+    <string name="service_running">服务运行中</string>
+    <string name="service_stopped">服务已停止</string>
+    <string name="permission_required">需要授予权限</string>
+    <string name="grant_accessibility">授予无障碍权限</string>
+    <string name="grant_overlay">授予悬浮窗权限</string>
+    <string name="settings">设置</string>
+    <string name="api_config">API 配置</string>
+    <string name="save">保存</string>
+    <string name="notification_channel_name">屏幕 AI 助手服务</string>
+    <string name="notification_channel_description">显示 AI 助手运行状态</string>
+    <string name="notification_title">屏幕 AI 助手运行中</string>
+    <string name="notification_text">AI 正在分析屏幕内容</string>
+</resources>
